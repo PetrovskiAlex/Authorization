@@ -1,8 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization", "Authorization\Authorization.csproj", "{2BE60340-5AB8-4ED1-82CE-5724F076A3A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization", "src\Authorization\Authorization.csproj", "{7D735EA0-6626-45E9-ACF4-FB1D6689403D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.EntityFramework", "Authorization.EntityFramework\Authorization.EntityFramework.csproj", "{8909BF41-4D18-4224-9CD4-372E966FB18D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.EntityFramework", "src\Authorization.EntityFramework\Authorization.EntityFramework.csproj", "{3C40D460-1BDD-46DF-8C47-9561CAD2BA6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{77AC11F6-412C-4ECA-AE81-5A180584F2EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{72A7E18A-4111-47FD-A6B7-5CB7BC35D64F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.EntityFrameworkTests", "tests\Authorization.EntityFrameworkTests\Authorization.EntityFrameworkTests.csproj", "{BB7CCF87-E198-41DF-877C-7AE1156136F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,13 +16,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2BE60340-5AB8-4ED1-82CE-5724F076A3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2BE60340-5AB8-4ED1-82CE-5724F076A3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2BE60340-5AB8-4ED1-82CE-5724F076A3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2BE60340-5AB8-4ED1-82CE-5724F076A3A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8909BF41-4D18-4224-9CD4-372E966FB18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8909BF41-4D18-4224-9CD4-372E966FB18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8909BF41-4D18-4224-9CD4-372E966FB18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8909BF41-4D18-4224-9CD4-372E966FB18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D735EA0-6626-45E9-ACF4-FB1D6689403D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D735EA0-6626-45E9-ACF4-FB1D6689403D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D735EA0-6626-45E9-ACF4-FB1D6689403D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D735EA0-6626-45E9-ACF4-FB1D6689403D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C40D460-1BDD-46DF-8C47-9561CAD2BA6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C40D460-1BDD-46DF-8C47-9561CAD2BA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C40D460-1BDD-46DF-8C47-9561CAD2BA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C40D460-1BDD-46DF-8C47-9561CAD2BA6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB7CCF87-E198-41DF-877C-7AE1156136F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB7CCF87-E198-41DF-877C-7AE1156136F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB7CCF87-E198-41DF-877C-7AE1156136F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB7CCF87-E198-41DF-877C-7AE1156136F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D735EA0-6626-45E9-ACF4-FB1D6689403D} = {77AC11F6-412C-4ECA-AE81-5A180584F2EE}
+		{3C40D460-1BDD-46DF-8C47-9561CAD2BA6A} = {77AC11F6-412C-4ECA-AE81-5A180584F2EE}
+		{BB7CCF87-E198-41DF-877C-7AE1156136F7} = {72A7E18A-4111-47FD-A6B7-5CB7BC35D64F}
 	EndGlobalSection
 EndGlobal

@@ -16,6 +16,7 @@ namespace Authorization.EntityFramework
 
         protected override Task<T> GetEntity<T, TContext>(TContext context) where T : class
         {
+            
             var entity = _dbContext.Set<T>()
                 .Where(t => true)
                 .FirstOrDefaultAsync();
